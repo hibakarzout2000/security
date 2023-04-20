@@ -77,7 +77,7 @@ def delete_line(user,path,*args, **kwargs):
 
 @app.route('/test/home')
 def test_home():
-  user = "hamza"
+  user = "hiba"
   concaten = ""
   list = []
   for parent, dnames, fnames in os.walk("files/"):
@@ -88,7 +88,7 @@ def test_home():
   
 @app.route('/test/<path:path>')
 def test_get_file(path,*args, **kwargs):
-  user = "hamza"
+  user = "hiba"
   content = []
   with open(path) as f:
     for line in f:
