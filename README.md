@@ -240,7 +240,7 @@ pip install flask_bootstrap
 
 1. Clone the repo in the server
    ```console
-   git clone https://github.com/hamza-mahjoub/flask-kerberos-module.git.
+   git clone https://github.com/hibakarzout2000/security.git.
    ```
 2. Login as root by running `su -`.
 
